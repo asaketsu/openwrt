@@ -95,6 +95,8 @@ jobs:
            git clone  https://github.com/vernesong/OpenClash package/lean/OpenClash 
            git clone  https://github.com/Leo-Jo-My/luci-theme-leo package/luci-theme-leo 
            git clone  https://github.com/Leo-Jo/luci-app-koolproxyR package/luci-app-koolproxyR
+           git clone  https://github.com/Leo-Jo-My/luci-app-ssr-plus-Jo
+           git clone  https://github.com/Leo-Jo-My/luci-app-vssr
           #          =========================================
           #         |                                         |
           #         |         此处可以任意添加源码              |
@@ -215,9 +217,11 @@ jobs:
           #  CONFIG_PACKAGE_luci-app-unblockneteasemusic-mini=y
           #  CONFIG_PACKAGE_luci-app-qos=y
              CONFIG_PACKAGE_luci-app-clash=y
+             CONFIG_PACKAGE_luci-app-ssr-plus-Jo=y
+             CONFIG_PACKAGE_luci-app-vssr=y
           #  CONFIG_PACKAGE_luci-app-samba=y
              CONFIG_PACKAGE_luci-app-koolproxyR=y
-          #  CONFIG_PACKAGE_luci-app-advanced-reboot=y
+             CONFIG_PACKAGE_luci-app-advanced-reboot=y
           #  CONFIG_PACKAGE_luci-app-amule=y
           #  CONFIG_PACKAGE_luci-app-adblock=y
           #  CONFIG_PACKAGE_luci-app-cifs=y
